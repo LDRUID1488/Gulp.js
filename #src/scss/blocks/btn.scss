@@ -1,0 +1,17 @@
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    padding: 1em 1.7em;
+
+    background: $blue;
+    border: none;
+    cursor: pointer;
+
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.1;
+    font-weight: 500px;
+    color: $whitetext;
+    text-decoration: none;
+    
+}

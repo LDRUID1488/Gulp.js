@@ -1,0 +1,103 @@
+.lastpost{
+    display: flex;
+position: absolute;
+width: 1618px;
+height: 2109px;
+left: -37px;
+top: 868px;
+}
+.lefttext{
+    transform: rotate(-270deg);
+    transform-origin: left top 0;
+    position: absolute;
+width: 1922px;
+height: 164px;
+left: 187px;
+top: 0px;
+text-transform: uppercase;
+font-size: 167px;
+color: $whitetext;
+}
+h6{
+    position: absolute;
+width: 440px;
+height: 48px;
+left: 339px;
+top: 6px;
+
+
+font-weight: 500;
+font-size: 48px;
+line-height: 100%;
+/* identical to box height, or 48px */
+
+letter-spacing: 0.01em;
+
+color: #304059;
+}
+.smalltexte{
+    position: absolute;
+width: 504px;
+height: 26px;
+left: 339px;
+top: 64px;
+
+
+font-style: normal;
+font-weight: 500;
+font-size: 17px;
+line-height: 150%;
+}
+
+.cars{
+    padding-left: 376px;
+    padding-top: 142px;
+    width: 394px;
+    height: 594px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-bottom: 97px;
+}
+
+.cars__item{
+    img{
+        padding-left: 1.5px;
+    }
+    background-color: #fff;
+}
+.cars_title{
+padding-top: 10px;
+height: 30px;
+margin-left: auto;
+margin-right: auto;
+width: 290px;
+
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 130%;
+/* or 23px */
+
+letter-spacing: 0.01em;
+}
+.cars_information{
+    font-style: normal;
+font-weight: 500;
+font-size: 15px;
+line-height: 130%;
+padding-top: 68px;
+padding-left: 30px;
+line-height: 40px;
+}
+.all_cars_b{
+    position: absolute;
+    width: 288px;
+    height: 56px;
+    left: 855px;
+    bottom: 0px;
+    background-color: $blue;
+    border: none;
+    cursor: pointer;
+    color: $whitetext;
+}

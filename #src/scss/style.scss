@@ -1,0 +1,57 @@
+@import "vars";
+@import "vender/reset.scss";
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@100&display=swap');
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body { 
+   
+    background-color: $backgroundwhite;
+
+    font-family: 'Encode Sans SC', sans-serif;
+    font-size: 16px;
+    color: $bstext;
+}
+
+
+
+
+/*Fonts*/
+
+
+/*Blocks*/
+@import "blocks/main";
+@import "blocks/btn";
+@import "blocks/header";
+@import "blocks/lastpost";
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+/* Bloks */
+@import "blocks/main"

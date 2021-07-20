@@ -1,0 +1,26 @@
+.main {
+    display: flex;
+    justify-content: space-around;
+    background-color: $bccicon;
+    img{
+        padding-top: 0%;
+    }
+}
+
+.nav_list{
+    display: flex;
+    padding: 2.5rem 3.5rem;
+}
+.nav__link{
+    font-size: 16px;
+    font-weight: 600px;
+    padding: 18px; 
+   
+    color: $bbtext ;
+    text-decoration: none;
+}
+.telgrf{
+    padding-top: 8px;
+    margin-right: 339px;
+    
+}
