@@ -1,0 +1,232 @@
+@charset "UTF-8";
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Roboto";
+}
+
+ul, li {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  width: 1242px;
+  margin: 0 auto;
+}
+
+.header {
+  background: #EFF1F4 no-repeat center top;
+}
+
+header a {
+  color: #5F656F;
+}
+
+.logo {
+  margin-right: 40px;
+}
+
+.menu {
+  display: flex;
+}
+
+.menu li a {
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+  margin-right: 20px;
+}
+
+.tel {
+  font-size: 19px;
+  color: #304059;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+  height: 64px;
+  align-items: center;
+}
+
+.inf {
+  margin-left: 0;
+  align-items: center;
+}
+
+.inf p {
+  font-size: 12px;
+  color: #5F656F;
+  margin: 0 auto;
+}
+
+.nav button {
+  padding: 9px;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+  margin-right: 20px;
+}
+
+.likebtn button {
+  border-radius: 50%;
+}
+
+.likeimg {
+  display: flex;
+  align-items: center;
+}
+
+.d2 {
+  background: #fff;
+  height: 44px;
+  display: flex;
+  align-items: center;
+}
+
+.d2 input {
+  margin-left: 20px;
+  height: 44px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+  color: #5F656F;
+  align-items: center;
+  padding: 0;
+}
+
+.d2 button {
+  margin: 14px;
+  height: 26px;
+  width: 26px;
+  padding: 0;
+  cursor: pointer;
+}
+
+.searchimg {
+  display: flex;
+  align-items: center;
+  padding-left: 5px;
+}
+
+.zapros button {
+  background: #2962FF;
+  border: none;
+  cursor: pointer;
+  margin: 0%;
+  color: #fff;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 26px;
+}
+
+.baner .container {
+  background: url("../img/background.png") no-repeat center top/cover;
+  display: flex;
+  align-items: center;
+  height: 700px;
+  padding-left: 60px;
+  padding-right: 60px;
+  z-index: 0;
+}
+
+.textban {
+  margin-left: 10px;
+}
+
+h1 {
+  padding-top: 0px;
+  font-weight: bold;
+  margin-top: -30px;
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 76px;
+  line-height: 76px;
+  letter-spacing: 1%;
+}
+
+.baner p {
+  color: #fff;
+  line-height: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+
+.zapross button {
+  background: #2962FF;
+  border: none;
+  cursor: pointer;
+  margin-top: 10px;
+  color: #fff;
+  font-size: 16px;
+  height: 56px;
+  width: 288px;
+  margin-bottom: 50px;
+}
+
+.baner b {
+  font-weight: 900px;
+  color: #fff;
+}
+
+.vibor {
+  display: flex;
+  height: 60px;
+  align-items: center;
+  background: #fff;
+  width: 1242px;
+  margin-top: 12px;
+}
+
+.vibor select {
+  font-display: flex;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  cursor: pointer;
+  /*Забираем рамки і браузерну обводку*/
+  border: 0;
+  outline: 0;
+  font-size: 17px;
+  line-height: 140%;
+  appearance: none;
+  padding: 19px 8px 17px;
+}
+
+.vibor button {
+  height: 60px;
+  width: 60px;
+  padding: 21px;
+  cursor: pointer;
+  border: none;
+  background: #fff;
+}
+.vibor button img {
+  padding: 0;
+}
+
+.strelimg {
+  background-size: cover;
+  pointer-events: none;
+  padding-left: 25px;
+  float: left;
+  margin-right: 5px;
+}
+
+h5 {
+  display: flex;
+  margin-top: 80px;
+  font-size: 72px;
+  margin-top: 40px;
+  transform: rotate(-90deg);
+  transform-origin: left top 0;
+  right: -320px;
+  bottom: 0;
+}
